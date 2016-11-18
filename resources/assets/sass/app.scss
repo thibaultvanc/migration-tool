@@ -1,0 +1,82 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// @import "node_modules/font-awesome/less/font-awesome.less";
+// @fa-font-path: "../../fonts";
+
+
+@fa_path: "node_modules/font-awesome/less/";
+@fa-font-path: "../../fonts";
+
+@import "node_modules/font-awesome/scss/font-awesome";
+// @import "node_modules/keen-ui/dist/keen-ui.css";
+// @import "keen.scss";
+
+
+
+
+// @import "@{fa_path}/mixins.less";
+// @import "@{fa_path}/path.less";
+// @import "@{fa_path}/core.less";
+// @import "@{fa_path}/icons.less";
+
+// Variables
+@import "variables";
+
+// Bulma
+@import "node_modules/bulma/bulma";
+
+@import "mdl.scss";
+
+h1{
+  color: white
+}
+
+.is-colored { color: #00d1b2; }
+
+// @fa-font-path: "../../fonts";
+
+// // Bootstrap
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// nav{
+//   background-color: red;
+//
+// }
+.menu-list a.is-active {
+  background-color: #c9bfbf;
+  color: white;
+}
+
+.menu-list a {
+    color: #FFFFFF;
+}
+
+
+
+aside{
+  background-color: #333A45;
+  color:white
+}
+
+
+aside li a.active{
+  background-color: cadetblue;
+  color:white
+}
+aside li i{
+  // padding: 10px
+}
+
+a.white{
+  // background-color: #00d1b2;
+  color:white !important
+}
+
+
+
+a.white:hover{
+  // background-color: #00d1b2;
+  text-decoration: underline;
+}
